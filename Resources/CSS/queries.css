@@ -151,7 +151,18 @@
         margin: 0;
         padding: 0;
     }
-    .logo {
-        height: 10px;
+    
+    h1 {
+        font-family: 'Amatic-SC', cursive;
+        font-size: 110%
+    }
+    
+    .hero-text-box .btn {
+        font-size: 80%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .app-screen {
+        border-radius: 15px;
     }
 }

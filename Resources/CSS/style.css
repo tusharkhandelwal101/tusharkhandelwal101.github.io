@@ -647,27 +647,27 @@ footer {
     font-size: 160%;
 } 
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-android-mail,
-.ion-social-instagram {
+.facebook,
+.twitter,
+.mail,
+.instagram {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
-.ion-social-facebook:hover {
+.facebook:hover {
     color: #3b5998;
 }
 
-.ion-social-twitter:hover {
+.twitter:hover {
     color: #1da1f2;
 }
 
-.ion-android-mail:hover {
+.mail:hover {
     color: #ea4335;
 }
 
-.ion-social-instagram:hover {
+.instagram:hover {
     color: #517fa4;
 }
 
