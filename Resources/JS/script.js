@@ -98,11 +98,11 @@ $(document).ready(function() {
         var icon = $('.js--nav-icon i');
         
         nav.slideToggle(200);
-        if (icon.hasClass('ion-navicon-round')) {
+        if (icon.hasClass('menu')) {
             icon.addClass('ion-close-round');
-            icon.removeClass('ion-navicon-round');
+            icon.removeClass('menu');
         } else {
-            icon.addClass('ion-navicon-round');
+            icon.addClass('menu');
             icon.removeClass('ion-close-round');
         }
     });

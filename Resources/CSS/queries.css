@@ -84,6 +84,11 @@
     
     .mobile-nav-icon {
         display: inline-block;
+        font-size: 35px;
+    }
+    
+    .menu {
+        color: #fff;
     }
     
     .main-nav { display: none; }
@@ -110,7 +115,10 @@
     
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon { 
+        margin-top: 10px;
+        font-size: 40px;
+    }
     .sticky .mobile-nav-icon i { color: #555; }
     
     
@@ -161,8 +169,5 @@
         font-size: 80%;
         padding: 20px;
         margin-bottom: 10px;
-    }
-    .app-screen {
-        border-radius: 15px;
     }
 }
