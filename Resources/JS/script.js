@@ -98,12 +98,12 @@ $(document).ready(function() {
         var icon = $('.js--nav-icon i');
         
         nav.slideToggle(200);
-        if (icon.hasClass('menu')) {
-            icon.addClass('ion-close-round');
-            icon.removeClass('menu');
+        if (icon.hasClass('fas fa-bars')) {
+            icon.addClass('fas fa-times');
+            icon.removeClass('fas fa-bars');
         } else {
-            icon.addClass('menu');
-            icon.removeClass('ion-close-round');
+            icon.addClass('fas fa-bars');
+            icon.removeClass('fas fa-times');
         }
     });
 });    

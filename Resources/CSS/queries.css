@@ -30,7 +30,7 @@
     }
     
     h1 {
-        font-size: 190%
+        font-size: 190%;
     }
     
     .hero-text-box .btn {
@@ -82,16 +82,17 @@
         height: 80px
     }
     
+    .main-nav { display: none; }
+
     .mobile-nav-icon {
         display: inline-block;
         font-size: 35px;
     }
     
-    .menu {
+    .fab fa-bars {
         color: #fff;
     }
     
-    .main-nav { display: none; }
     
     .main-nav {
         float: left;
@@ -122,7 +123,7 @@
     .sticky .mobile-nav-icon i { color: #555; }
     
     
-    h1 { font-size: 160%; }
+    h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     
     .hero-text-box .btn {
@@ -148,6 +149,13 @@
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
   
+    footer {
+        font-size: 70%;
+    }
+    
+    .footer-nav {
+        margin-bottom: 1px;
+    }
 }
 
 
@@ -160,14 +168,22 @@
         padding: 0;
     }
     
-    h1 {
-        font-family: 'Amatic-SC', cursive;
-        font-size: 110%
-    }
     
     .hero-text-box .btn {
         font-size: 80%;
         padding: 20px;
         margin-bottom: 10px;
     }
+    
+    footer {
+        font-size: 50%;
+    }
+    
+    .footer-nav {
+        padding: -1px;
+        margin-left: -1px;
+        margin-bottom: 1px;
+    }
+
 }
+
